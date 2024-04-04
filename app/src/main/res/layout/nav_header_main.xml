@@ -1,0 +1,29 @@
+<!-- res/layout/nav_header_main.xml -->
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:background="@color/gelap2">
+
+    <!-- Your profile picture or icon -->
+    <ImageView
+        android:id="@+id/imageViewProfile"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:src="@drawable/pp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"/>
+
+    <!-- User name or other information -->
+    <TextView
+        android:id="@+id/textViewUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rifqi Wibisono Himmawan"
+        android:fontFamily="@font/kadw"
+        android:textColor="@color/gelap"
+        android:textSize="20sp"
+        android:layout_below="@id/imageViewProfile"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"/>
+</RelativeLayout>
